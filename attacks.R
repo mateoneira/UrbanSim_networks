@@ -1,5 +1,5 @@
 source("measures_net.R")
-library
+library(reshape2)
 
 g_london<-read_graph("london_tube.graphml", format = "graphml")
 
